@@ -1,5 +1,6 @@
 #pragma once
 
+#include "D3D11EngineInterfaceAPI.h"
 #include "IRenderLayer.h"
 #include <stdint.h>
 
@@ -24,7 +25,7 @@ enum class UIMouseEventType : uint8_t
 	Click
 };
 
-class IUIRenderLayer : public IRenderLayer
+class D3D11ENGINEINTERFACE_API IUIRenderLayer : public IRenderLayer
 {
 public:
 	virtual ~IUIRenderLayer() = default;

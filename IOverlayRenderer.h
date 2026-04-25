@@ -1,10 +1,12 @@
 #pragma once
 
+#include "D3D11EngineInterfaceAPI.h"
+
 struct OverlayRenderContext;
 struct OverlayCollections;
 class IRenderContext;
 
-class IOverlayRenderer
+class D3D11ENGINEINTERFACE_API IOverlayRenderer
 {
 public:
 	virtual ~IOverlayRenderer() = default;

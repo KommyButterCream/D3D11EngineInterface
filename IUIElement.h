@@ -1,5 +1,6 @@
 #pragma once
 
+#include "D3D11EngineInterfaceAPI.h"
 #include "IRenderStructures.h"
 
 struct ID2D1DeviceContext;
@@ -13,7 +14,7 @@ enum class UIState
 	Disabled
 };
 
-class IUIElement
+class D3D11ENGINEINTERFACE_API IUIElement
 {
 public:
 	virtual ~IUIElement() = default;

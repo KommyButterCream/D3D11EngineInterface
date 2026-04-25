@@ -1,8 +1,9 @@
 #pragma once
 
+#include "D3D11EngineInterfaceAPI.h"
 #include <stdint.h>
 
-class IResizeEventListener
+class D3D11ENGINEINTERFACE_API IResizeEventListener
 {
 public:
 	virtual ~IResizeEventListener() = default;

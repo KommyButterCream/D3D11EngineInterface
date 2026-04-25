@@ -1,5 +1,6 @@
 #pragma once
 
+#include "D3D11EngineInterfaceAPI.h"
 #include <stdint.h>
 
 class IRenderEngine;
@@ -10,16 +11,16 @@ struct ID2D1DeviceContext;
 struct ID2D1DeviceContext5;
 struct IDWriteFactory;
 
-class IRenderContext
+class D3D11ENGINEINTERFACE_API IRenderContext
 {
 public:
 	virtual ~IRenderContext() = default;
 
-	// ÃÊ±âÈ­, Á¾·á
+	// ì´ˆê¸°í™”, ì¢…ë£Œ
 	virtual bool Initialize(void* windowHandle) = 0;
 	virtual void Shutdown() = 0;
 
-	// »óÅÂ
+	// ìƒíƒœ
 	virtual bool IsInitialized() const = 0;
 
 	// Resize

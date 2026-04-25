@@ -1,6 +1,8 @@
 #pragma once
 
-class IDeviceEventListener
+#include "D3D11EngineInterfaceAPI.h"
+
+class D3D11ENGINEINTERFACE_API IDeviceEventListener
 {
 public:
 	virtual ~IDeviceEventListener() = default;

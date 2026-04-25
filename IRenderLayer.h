@@ -1,10 +1,11 @@
 #pragma once
 
+#include "D3D11EngineInterfaceAPI.h"
 #include <stdint.h>
 
 class IRenderContext;
 
-class IRenderLayer
+class D3D11ENGINEINTERFACE_API IRenderLayer
 {
 public:
 	virtual ~IRenderLayer() = default;
