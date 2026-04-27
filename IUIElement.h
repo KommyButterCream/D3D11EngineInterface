@@ -14,7 +14,7 @@ enum class UIState
 	Disabled
 };
 
-class D3D11ENGINEINTERFACE_API IUIElement
+class D3D11_ENGINE_INTERFACE_API IUIElement
 {
 public:
 	virtual ~IUIElement() = default;

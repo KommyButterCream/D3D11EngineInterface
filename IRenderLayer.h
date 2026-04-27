@@ -5,7 +5,7 @@
 
 class IRenderContext;
 
-class D3D11ENGINEINTERFACE_API IRenderLayer
+class D3D11_ENGINE_INTERFACE_API IRenderLayer
 {
 public:
 	virtual ~IRenderLayer() = default;

@@ -12,7 +12,7 @@ struct RenderEngineConfig
 	bool initFontManager = false;
 };
 
-class D3D11ENGINEINTERFACE_API IRenderEngine
+class D3D11_ENGINE_INTERFACE_API IRenderEngine
 {
 public:
 	virtual ~IRenderEngine() = default;

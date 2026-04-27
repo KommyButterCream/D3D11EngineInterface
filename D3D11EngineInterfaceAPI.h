@@ -1,7 +1,7 @@
 #pragma once
 
-#ifdef D3D11ENGINEINTERFACE_EXPORTS
-#define D3D11ENGINEINTERFACE_API __declspec(dllexport)
+#ifdef D3D11_ENGINE_INTERFACE_EXPORTS
+#define D3D11_ENGINE_INTERFACE_API __declspec(dllexport)
 #else
-#define D3D11ENGINEINTERFACE_API __declspec(dllimport)
+#define D3D11_ENGINE_INTERFACE_API __declspec(dllimport)
 #endif

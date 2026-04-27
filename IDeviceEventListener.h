@@ -2,7 +2,7 @@
 
 #include "D3D11EngineInterfaceAPI.h"
 
-class D3D11ENGINEINTERFACE_API IDeviceEventListener
+class D3D11_ENGINE_INTERFACE_API IDeviceEventListener
 {
 public:
 	virtual ~IDeviceEventListener() = default;

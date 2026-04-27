@@ -11,7 +11,7 @@ struct ID2D1DeviceContext;
 struct ID2D1DeviceContext5;
 struct IDWriteFactory;
 
-class D3D11ENGINEINTERFACE_API IRenderContext
+class D3D11_ENGINE_INTERFACE_API IRenderContext
 {
 public:
 	virtual ~IRenderContext() = default;

@@ -3,7 +3,7 @@
 #include "D3D11EngineInterfaceAPI.h"
 #include <stdint.h>
 
-class D3D11ENGINEINTERFACE_API IResizeEventListener
+class D3D11_ENGINE_INTERFACE_API IResizeEventListener
 {
 public:
 	virtual ~IResizeEventListener() = default;

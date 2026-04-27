@@ -25,7 +25,7 @@ enum class UIMouseEventType : uint8_t
 	Click
 };
 
-class D3D11ENGINEINTERFACE_API IUIRenderLayer : public IRenderLayer
+class D3D11_ENGINE_INTERFACE_API IUIRenderLayer : public IRenderLayer
 {
 public:
 	virtual ~IUIRenderLayer() = default;

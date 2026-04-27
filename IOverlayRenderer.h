@@ -6,7 +6,7 @@ struct OverlayRenderContext;
 struct OverlayCollections;
 class IRenderContext;
 
-class D3D11ENGINEINTERFACE_API IOverlayRenderer
+class D3D11_ENGINE_INTERFACE_API IOverlayRenderer
 {
 public:
 	virtual ~IOverlayRenderer() = default;
